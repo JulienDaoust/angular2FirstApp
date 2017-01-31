@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'fa-databinding',
@@ -8,4 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DatabindingComponent {
   stringInterporlation = 'This is string interpolation!';
   numberInterpolation = 2;
+
+  onTest() {
+    return true;
+  }
 }
